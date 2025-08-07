@@ -1,0 +1,35 @@
+/* src/print.css */
+
+/* Hide the sidebar */
+@media print {
+  aside,
+  .print-hide {
+    display: none;
+  }
+
+  /* Make the main content area take up the full width */
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Ensure the report table is centered and takes full width */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Adjust table font size for better printing */
+  table,
+  th,
+  td {
+    font-size: 10pt;
+  }
+
+  /* Optional: Add some padding to table cells for readability */
+  th,
+  td {
+    padding: 8px;
+  }
+}
