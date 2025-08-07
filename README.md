@@ -1,4 +1,5 @@
 **Business Registration System**
+
 This is a comprehensive full-stack web application designed to streamline the business registration process. 
 It provides a platform for users to register their businesses, and for administrators to review and manage those registrations. 
 The system is built with a modern technology stack to ensure a robust, scalable, and user-friendly experience.
